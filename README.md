@@ -12,8 +12,12 @@
 | 名称 | 描述 | 链接 |
 |------|------|------|
 | Whisper | OpenAI 开源的多语言语音识别模型 | [GitHub](https://github.com/openai/whisper) |
+| PaddleSpeech | 百度开源的语音识别工具包 | [GitHub](https://github.com/PaddlePaddle/PaddleSpeech) |
+| awesome-whisper | whisper 的一些应用和优化 | [GitHub](https://github.com/sindresorhus/awesome-whisper) |
 | Kaldi | 基于WFST的经典ASR工具包 | [官网](https://kaldi-asr.org/) |
 | ESPnet | 端到端语音处理工具包 | [GitHub](https://github.com/espnet/espnet) |
+| wenet | 新手中文语音识别工具包 | [GitHub](https://github.com/wenet-e2e/wenet) |
+| funasr | 新手中文语音识别工具包 | [GitHub](https://github.com/modelscope/FunASR) |
 
 ### 论文
 - **[Attention Is All You Need (2017)]**  
@@ -33,6 +37,8 @@
 |------|------|------|
 | VITS | 基于VAE的端到端TTS模型 | [GitHub](https://github.com/jaywalnut310/vits) |
 | Tacotron 2 | Google 神经TTS架构 | [GitHub](https://github.com/NVIDIA/tacotron2) |
+| FastSpeech | 非自回归快速合成 | [GitHub](https://github.com/ming024/FastSpeech) |
+| wetts | 中文TTS工具包 | [GitHub](https://github.com/wenet-e2e/wetts) |
 
 ### 论文
 - **[VITS (2021)]**  
