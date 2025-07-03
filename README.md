@@ -1,49 +1,86 @@
-# awesome-speech-resources
+# Awesome Speech Resources
 
+🗣️ A curated list of speech-related tools, papers, and datasets.  
+*点击下方分类展开详细资源列表*
 
-## Paper List
-- [Text-to-Audio](#Text-to-Audio)
-- [Automatic Speech Recognition(ASR)](#Automatic-Speech-Recognition)
-- [Speaker Verification](#Speaker-Verification)
-- [Voice Conversion(VC)](#Voice-Conversion)
-- [Speech Synthesis(TTS)](#Speech-Synthesis)
-- [Language Modelling](#Language-Modelling)
-- [Confidence Estimates](#Confidence-Estimates)
-- [Music Modelling](#Music-Modelling)
-- [Interesting papers](#Interesting-papers)
-
+---
 
 <details>
-<summary><b>Text to Audio</b> (Click to expand)</summary>
+<summary><b>🔊 语音识别 (ASR)</b></summary>
 
-- **AudioLM: a Language Modeling Approach to Audio Generation**(2022), Zalán Borsos et al. [[pdf]](https://arxiv.org/pdf/2209.03143)
-- **AudioLDM: Text-to-Audio Generation with Latent Diffusion Models**(2023), Haohe Liu et al. [[pdf]](https://arxiv.org/pdf/2301.12503)
-- **MusicLM: Generating Music From Text**(2023), Andrea Agostinelli et al. [[pdf]](https://arxiv.org/pdf/2301.11325)
-- **Moûsai: Text-to-Music Generation with Long-Context Latent Diffusion**(2023), Flavio Schneider et al. [[pdf]](https://arxiv.org/pdf/2301.11757)
-- **Noise2Music: Text-conditioned Music Generation with Diffusion Models**(2023), Qingqing Huang et al. [[pdf]](https://arxiv.org/pdf/2302.03917)
+### 工具
+| 名称 | 描述 | 链接 |
+|------|------|------|
+| Whisper | OpenAI 开源的多语言语音识别模型 | [GitHub](https://github.com/openai/whisper) |
+| Kaldi | 基于WFST的经典ASR工具包 | [官网](https://kaldi-asr.org/) |
+| ESPnet | 端到端语音处理工具包 | [GitHub](https://github.com/espnet/espnet) |
+
+### 论文
+- **[Attention Is All You Need (2017)]**  
+  Transformer 架构奠基性论文 [[arXiv](https://arxiv.org/abs/1706.03762)]
+- **[Whisper (2022)]**  
+  大规模弱监督语音识别 [[arXiv](https://arxiv.org/abs/2212.04356)]
 
 </details>
 
-# **模型概述**
-- 基于AISHELL+wav2vec2预训练用于语音识别
-- 采用Transformer和wav2vec2技术
-# **模型性能**
-- 发布时开发集错误率为5.19%
-- 发布时测试集错误率为5.58%
-# **系统组成**
-- 基于单字的分词器处理文本
-- 含wav2vec2编码器的声学模型
-# **安装与使用**
-- 使用pip命令安装SpeechBrain
-- 提供英文音频转录代码示例
-# **训练方法**
-- 克隆SpeechBrain代码库
-- 按步骤执行训练命令
-# **模型局限性**
-- 换数据集性能无保障
-# **关于SpeechBrain**
-- 提供官网、代码库链接
-- 给出HuggingFace页面链接
-# **引用规范**
-- 用于研究或商业需引用
-- 提供具体引用格式示例
+---
+
+<details>
+<summary><b>🎵 语音合成 (TTS)</b></summary>
+
+### 工具
+| 名称 | 描述 | 链接 |
+|------|------|------|
+| VITS | 基于VAE的端到端TTS模型 | [GitHub](https://github.com/jaywalnut310/vits) |
+| Tacotron 2 | Google 神经TTS架构 | [GitHub](https://github.com/NVIDIA/tacotron2) |
+
+### 论文
+- **[VITS (2021)]**  
+  对抗学习端到端TTS [[arXiv](https://arxiv.org/abs/2106.06103)]
+- **[FastSpeech (2019)]**  
+  非自回归快速合成 [[arXiv](https://arxiv.org/abs/1905.09263)]
+
+</details>
+
+---
+
+<details>
+<summary><b>🔉 语音增强</b></summary>
+
+### 工具
+| 名称 | 描述 | 链接 |
+|------|------|------|
+| Demucs | 语音/音乐分离工具 | [GitHub](https://github.com/facebookresearch/demucs) |
+| RNNoise | 实时噪声抑制 | [GitHub](https://github.com/xiph/rnnoise) |
+
+### 论文
+- **[SEGAN (2017)]**  
+  首个基于GAN的语音增强 [[arXiv](https://arxiv.org/abs/1703.09452)]
+
+</details>
+
+---
+
+<details>
+<summary><b>🤖 LLM及多模态LLM</b></summary>
+
+### 工具
+| 名称 | 描述 | 链接 |
+|------|------|------|
+| SpeechGPT | 支持语音交互的LLM | [GitHub](https://github.com/0nutation/SpeechGPT) |
+| Step-Audio | 语音对话大模型 | [GitHub](https://github.com/stepfun-ai/Step-Audio) |
+
+### 论文
+- **[Step-Audio (2025)]**  
+  Step-Audio Team 语音对话 [[arXiv](https://arxiv.org/abs/2502.11946)]
+
+</details>
+
+---
+
+## 贡献
+欢迎提交 Pull Request 补充资源！  
+⚠️ 要求：  
+- 按分类添加  
+- 提供官方链接  
+- 论文需附arXiv/DOI链接
