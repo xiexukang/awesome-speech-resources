@@ -19,6 +19,15 @@
 | wenet | 新手中文语音识别工具包 | [GitHub](https://github.com/wenet-e2e/wenet) |
 | funasr | 新手中文语音识别工具包 | [GitHub](https://github.com/modelscope/FunASR) |
 
+### 数据集
+| 名称 | 描述 | 链接 |
+|------|------|------|
+| LibriSpeech | 英文语音数据集 | [官网](http://www.openslr.org/12/) |
+| AISHELL-1 | 中文语音数据集 | [官网](http://www.openslr.org/33/) |
+| AISHELL-3 | 中文语音数据集 | [官网](http://www.openslr.org/68/) |
+| voice_datasets |  open source voice and music datasets | [GitHub](https://github.com/jim-schwoebel/voice_datasets) |
+
+
 ### 论文
 - **[Attention Is All You Need (2017)]**  
   Transformer 架构奠基性论文 [[arXiv](https://arxiv.org/abs/1706.03762)]
@@ -84,6 +93,47 @@
 
 ---
 
+---
+
+<details>
+<summary><b>🆔 声纹识别 (Speaker Recognition)</b></summary>
+
+### 工具
+| 名称 | 描述 | 链接 |
+|------|------|------|
+| Resemblyzer | 基于神经网络的声纹特征提取 | [GitHub](https://github.com/resemble-ai/Resemblyzer) |
+| PyAnnote | 说话人日志分析工具包 | [GitHub](https://github.com/pyannote/pyannote-audio) |
+| ECAPA-TDNN | 当前最优声纹模型实现 | [GitHub](https://github.com/TaoRuijie/ECAPA-TDNN) |
+
+### 论文
+- **[ECAPA-TDNN (2020)]**  
+  通道注意力机制改进的声纹模型 [[arXiv](https://arxiv.org/abs/2005.07143)]
+- **[GE2E (2018)]**  
+  谷歌端到端声纹识别 [[arXiv](https://arxiv.org/abs/1710.10467)]
+
+</details>
+
+---
+
+<details>
+<summary><b>⏰ 语音唤醒 (Wake Word Detection)</b></summary>
+
+### 工具
+| 名称 | 描述 | 链接 |
+|------|------|------|
+| Porcupine | 离线唤醒词引擎（支持自定义热词） | [GitHub](https://github.com/Picovoice/porcupine) |
+| Snowboy | 轻量级唤醒词检测（已归档） | [GitHub](https://github.com/Kitt-AI/snowboy) |
+| HeyFriender | 开源多语言唤醒词训练框架 | [GitHub](https://github.com/HeyFriender/heyfriender) |
+
+### 论文
+- **[Keyword Transformer (2021)]**  
+  基于Transformer的唤醒词检测 [[arXiv](https://arxiv.org/abs/2104.00769)]
+- **[MatchboxNet (2020)]**  
+  端到端低延迟唤醒模型 [[arXiv](https://arxiv.org/abs/2004.03706)]
+
+</details>
+
+---
 ## 贡献
 欢迎提交 Pull Request 补充资源！  
 ⚠️ 要求：  
