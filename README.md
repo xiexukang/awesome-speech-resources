@@ -51,6 +51,16 @@
   NTU 2025年Interspeech MLC-SLM 挑战赛论文 [[arXiv](https://arxiv.org/pdf/2506.13339v1.pdf)]
 - **[Seewo’s Submission to MLC-SLM: Lessons learned from Speech Reasoning Language Models (2025)]**  
   Seewo 2025年Interspeech MLC-SLM 挑战赛论文,可验证奖励的强化学习 [[arXiv](https://arxiv.org/pdf/2506.13300v3.pdf)]
+- **[CMT-LLM: Contextual Multi-Talker ASR Utilizing Large Language Models (2025)]**  
+  利用大型语言模型的上下文多说话人语音识别 [[arXiv](https://arxiv.org/pdf/2506.12059v1.pdf)]
+- **[Whale: Large-Scale multilingual ASR model with w2v-BERT and E-Branchformer with large speech data (2025)]**   
+  基于w2v-BERT和E-Branchformer的大型多语言ASR模型 [[arXiv](https://arxiv.org/pdf/2506.01439v1.pdf)]
+- **[Improving Multilingual Speech Models on ML-SUPERB 2.0: Fine-tuning with Data Augmentation and LID-Aware CTC (2025)]**  
+  改进ML-SUPERB 2.0上的多语言语音模型：数据增强和LID感知CTC微调 [[arXiv](https://arxiv.org/pdf/2505.24200v2.pdf)]
+- **[Delayed-KD: Delayed Knowledge Distillation based CTC for Low-Latency Streaming ASR (2025)]**  
+  延迟知识蒸馏的低延迟流式ASR [[arXiv](https://arxiv.org/pdf/2505.22069.pdf)]
+
+
   
 </details>
 
@@ -74,6 +84,15 @@
   非自回归快速合成 [[arXiv](https://arxiv.org/abs/1905.09263)]
 - **[ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching (2025)]**  
   小米团队基于流匹配的零样本文本到语音 [[arXiv](https://arxiv.org/abs/2506.13053v2.pdf)]
+- **[Comparative Analysis of Fast and High-Fidelity Neural Vocoders for Low-Latency Streaming Synthesis in Resource-Constrained Environments (2025)]**  
+  资源受限环境下的低延迟流式合成比较分析 [[arXiv](https://arxiv.org/abs/2506.03554v1.pdf)]
+- **[CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens (2024)]**  
+  阿里通义CosyVoice 1：基于监督语义标记的可扩展多语言零样本文本到语音合成器 [[arXiv](https://arxiv.org/abs/2407.05407.pdf)]
+- **[CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training (2025)]**  
+  阿里通义CosyVoice 3 [[arXiv](https://arxiv.org/abs/2505.17589v2.pdf)]
+- **[SlimSpeech: Lightweight and Efficient Text-to-Speech with Slim Rectified Flow (2025)]**  
+  轻量级高效文本到语音 [[arXiv](https://arxiv.org/abs/2504.07776v2.pdf)]
+
 
 
 </details>
